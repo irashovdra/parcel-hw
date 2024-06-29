@@ -1,8 +1,9 @@
+// src/index.js
 import { saveFormData } from "./formData.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("feedback-form");
-  const successMessage = document.getElementById("success-message");
+  const form = document.querySelector(".feedback-form");
+  const successMessage = document.querySelector(".success-message");
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
