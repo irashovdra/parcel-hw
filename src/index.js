@@ -1,4 +1,3 @@
-// src/index.js
 import { saveFormData } from "./formData.js";
 
 document.addEventListener("DOMContentLoaded", () => {
